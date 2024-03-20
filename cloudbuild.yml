@@ -10,3 +10,4 @@ steps:
       - --trigger-event=google.storage.object.finalize
       - --trigger-resource=krs_db_import_test
       - --runtime=RUNTIME
+      - --gen2
