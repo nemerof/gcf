@@ -11,3 +11,4 @@ steps:
       - --trigger-resource=krs_db_import_test
       - --runtime=java17
       - --gen2
+      - --entry-point=functions.HelloGcs
