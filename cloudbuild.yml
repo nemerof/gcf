@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - test-function
+      - --region=europe-central2
+      - --source=.
+      - --trigger-event=google.storage.object.finalize
+      - --runtime=RUNTIME
